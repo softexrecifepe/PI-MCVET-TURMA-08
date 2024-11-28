@@ -49,4 +49,3 @@ Protótipo online desenvolvido
 ## Links
 
 - Solução URL: [Mascot's App](https://mascots-react.vercel.app/)
-h
