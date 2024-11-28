@@ -1,0 +1,44 @@
+:root {
+  --primary-color: hsla(157, 44%, 55%, 0.7);
+
+  --text-color: #fdfdfd;
+  --background-color: #131f24;
+
+  --modal-box-shadow: 0 0 0.5rem 1px #fdfdfd;
+  --border-color: #5cbf99;
+
+
+  --border: 2px solid hsla(0, 0%, 99%, 0.3);
+
+  color-scheme: dark light;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: #403c3c;
+    --background-color: #d9d9d9;
+    --border: 2px solid hsla(198, 31%, 11%, 0.3);
+  }
+
+  .search-component {
+    background-color: transparent;
+    border: 2px solid var(--border-color);
+  }
+
+  .paciente-box img {
+    background-color: var(--background-color);
+  }
+
+  .search-component input {
+    color: var(--text-color);
+  }
+}

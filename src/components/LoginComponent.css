@@ -1,0 +1,149 @@
+.login-container {
+    width: 100%;
+    padding: 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--border);
+    border-radius: 0.5rem;
+    padding: 2rem;
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+}
+
+.form p {
+    font-size: 0.8rem;
+}
+
+.form p button {
+    font-size: 0.8rem;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color: var(--text-color);
+}
+
+#singin-btn {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+
+.login-container img {
+    width: 30vw;
+}
+
+.login-container form h2 {
+    margin: -2rem 0 1rem 0;
+}
+
+.input-control {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.input-control button {
+    width: 100%;
+    font-size: 0.8rem;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--text-color);
+    text-align: end;
+}
+
+input {
+    width: 100%;
+    background-color: transparent;
+    border: var(--border);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+input:focus {
+    outline: 2px solid var(--border-color);
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+.validation-input {
+    position: absolute;
+    bottom: -1.2rem;
+    left: 0.2rem;
+    color: red;
+    font-size: 0.7rem;
+}
+
+#password-error {
+    bottom: 0.8rem;
+}
+
+.submit-control {
+    width: 100%;
+    position: relative;
+}
+
+.checkbox-control {
+    position: absolute;
+    top: -1rem;
+
+    label {
+        display: flex;
+        gap: 0.5rem;
+        font-size: 0.8rem;
+
+        input[type="checkbox"] {
+            width: 1rem;
+            background-color: var(--backgroung-color);
+        }
+    }
+}
+
+#loader-gif {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 900px) {
+    .login-container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+
+        img {
+            margin: -3rem 0;
+        }
+
+        .form {
+            width: 80vw;
+            border: none;
+        }
+    }
+}

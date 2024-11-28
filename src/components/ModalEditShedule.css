@@ -1,0 +1,51 @@
+#edit-modal {
+    height: 90%;
+
+    button {
+        width: 100%;
+        margin-top: 1rem;
+        color: var(--white);
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+        transition: 0.2s;
+    }
+
+    button:hover {
+        transform: none;
+        font-weight: bolder;
+        letter-spacing: 0.5rem;
+    }
+}
+
+#edit-schedule {
+    grid-template-columns: 0.75fr 0.75fr 1fr 0.5fr;
+    text-align: center;
+
+    .delete {
+        background-color: hsla(0, 100%, 50%);
+        color: white;
+    }
+
+    .btn {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        opacity: 1;
+    }
+
+    span {
+        padding: 0.2rem;
+        background-color: var(--border-color);
+        border-radius: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #edit-modal {
+        height: 100vh;
+    }
+}
+

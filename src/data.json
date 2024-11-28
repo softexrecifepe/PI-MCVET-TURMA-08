@@ -1,0 +1,607 @@
+{
+  "users": [
+    {
+      "id": "986d",
+      "name": "Alexandre Lins",
+      "email": "aslinsjr@gmail.com",
+      "birth": "1990-06-23",
+      "password": "1234"
+    }
+  ],
+  "internacoes": [
+    {
+      "entrada": "10/10/2024",
+      "hora": "09:00",
+      "paciente": "Rex",
+      "type": "dog",
+      "permanencia": 3,
+      "observacoes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "id": "da21"
+    },
+    {
+      "entrada": "10/10/2024",
+      "hora": "15:30",
+      "paciente": "Luna",
+      "type": "cat",
+      "permanencia": 2,
+      "observacoes": "Gatta molto timida, preferisce stare in un ambiente tranquillo.",
+      "id": "5bdc"
+    },
+    {
+      "entrada": "16/10/2024",
+      "hora": "10:00",
+      "paciente": "Sparky",
+      "type": "dog",
+      "permanencia": 1,
+      "observacoes": "Cane energico, ha bisogno di fare lunghe passeggiate.",
+      "id": "397e"
+    },
+    {
+      "entrada": "18/10/2024",
+      "hora": "14:00",
+      "paciente": "Coco",
+      "type": "bird",
+      "permanencia": 5,
+      "observacoes": "Pappagallo molto loquace, richiede attenzione costante.",
+      "id": "4639"
+    }
+  ],
+  "consultas": [
+    {
+      "dia": "24/10/2024",
+      "hora": "09:00",
+      "paciente": "Rex",
+      "type": "dog",
+      "servicos": [
+        "Banho",
+        "Tosa",
+        "Vacinação"
+      ],
+      "id": "5247"
+    },
+    {
+      "dia": "24/10/2024",
+      "hora": "14:00",
+      "paciente": "Pituco",
+      "type": "cat",
+      "servicos": [
+        "Banho",
+        "Unha"
+      ],
+      "id": "7c52"
+    },
+    {
+      "dia": "10/10/2024",
+      "hora": "10:30",
+      "paciente": "Esmeralda",
+      "type": "dog",
+      "servicos": [
+        "Banho",
+        "Tosa Higiênica"
+      ],
+      "id": "98dc"
+    },
+    {
+      "dia": "12/10/2024",
+      "hora": "15:00",
+      "paciente": "Bob",
+      "type": "cat",
+      "servicos": [
+        "Banho",
+        "Tosa"
+      ],
+      "id": "36ad"
+    },
+    {
+      "dia": "26/10/2024",
+      "hora": "11:00",
+      "paciente": "Bob",
+      "type": "cat",
+      "servicos": [
+        "Consulta Veterinária"
+      ],
+      "id": "2b0a"
+    },
+    {
+      "dia": "25/10/2024",
+      "hora": "16:00",
+      "paciente": "Juba",
+      "type": "dog",
+      "servicos": [
+        "Banho",
+        "Tosa",
+        "Adestramento"
+      ],
+      "id": "499d"
+    },
+    {
+      "dia": "30/10/2024",
+      "hora": "10:00",
+      "paciente": "Pituca",
+      "type": "bird",
+      "servicos": [
+        "Consulta",
+        "Banho"
+      ],
+      "id": "ca22"
+    },
+    {
+      "dia": "15/10/2024",
+      "hora": "08:00",
+      "paciente": "Nina",
+      "type": "cat",
+      "servicos": [
+        "Banho"
+      ],
+      "id": "d32a"
+    },
+    {
+      "dia": "10/10/2024",
+      "hora": "07:00",
+      "paciente": "Mel",
+      "type": "dog",
+      "servicos": [
+        "Banho",
+        "Tosa",
+        "Corte de Unhas"
+      ],
+      "id": "a122"
+    },
+    {
+      "dia": "17/10/2024",
+      "hora": "08:30",
+      "paciente": "Esmeralda",
+      "type": "reptile",
+      "servicos": [
+        "Consulta veterinária",
+        "Higienização do terrário"
+      ],
+      "id": "577d"
+    },
+    {
+      "dia": "21/10/2024",
+      "hora": "14:30",
+      "paciente": "Jade",
+      "type": "reptile",
+      "servicos": [
+        "Alimentação especializada",
+        "Iluminação UV"
+      ],
+      "id": "2d0b"
+    },
+    {
+      "dia": "21/10/2024",
+      "hora": "10:00",
+      "paciente": "Azrael",
+      "type": "fish",
+      "servicos": [
+        "Troca de água",
+        "Limpeza do aquário"
+      ],
+      "id": "9841"
+    },
+    {
+      "dia": "17/10/2024",
+      "hora": "11:00",
+      "paciente": "Celeste",
+      "type": "fish",
+      "servicos": [
+        "Alimentação viva",
+        "Aquário plantado"
+      ],
+      "id": "e63e"
+    }
+  ],
+  "pets": [
+    {
+      "id": "1",
+      "nome": "Rex",
+      "especie": "Cachorro",
+      "type": "dog",
+      "raca": "Labrador",
+      "idade": 3,
+      "atendimento": [
+        {
+          "dia": "07/10/2024",
+          "hora": "09:00",
+          "servicos": [
+            "Banho",
+            "Tosa",
+            "Vacinação"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(11) 98765-4321",
+        "email": "dono@email.com"
+      }
+    },
+    {
+      "id": "2",
+      "nome": "Pituco",
+      "especie": "Gato",
+      "type": "cat",
+      "raca": "Siamês",
+      "idade": 5,
+      "atendimento": [
+        {
+          "dia": "08/10/2024",
+          "hora": "14:00",
+          "servicos": [
+            "Banho",
+            "Unha"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(21) 91234-5678",
+        "email": "ana@gmail.com"
+      }
+    },
+    {
+      "id": "3",
+      "nome": "Esmeralda",
+      "especie": "Cachorro",
+      "type": "dog",
+      "raca": "Yorkshire",
+      "idade": 2,
+      "atendimento": [
+        {
+          "dia": "10/10/2024",
+          "hora": "10:30",
+          "servicos": [
+            "Banho",
+            "Tosa Higiênica"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(19) 35789-0123",
+        "email": "joao@hotmail.com"
+      }
+    },
+    {
+      "id": "4",
+      "nome": "Bob",
+      "especie": "Gato",
+      "type": "cat",
+      "raca": "Persa",
+      "idade": 4,
+      "atendimento": [
+        {
+          "dia": "12/10/2024",
+          "hora": "15:00",
+          "servicos": [
+            "Banho",
+            "Tosa"
+          ]
+        },
+        {
+          "dia": "20/10/2024",
+          "hora": "11:00",
+          "servicos": [
+            "Consulta Veterinária"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(41) 87654-3210",
+        "email": "maria@uol.com.br"
+      }
+    },
+    {
+      "id": "5",
+      "nome": "Juba",
+      "especie": "Cachorro",
+      "type": "dog",
+      "raca": "Golden Retriever",
+      "idade": 1,
+      "atendimento": [
+        {
+          "dia": "15/10/2024",
+          "hora": "16:00",
+          "servicos": [
+            "Banho",
+            "Tosa",
+            "Adestramento"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(12) 34567-8901",
+        "email": "pedro@yahoo.com.br"
+      }
+    },
+    {
+      "id": "6",
+      "nome": "Pituca",
+      "especie": "Pássaro",
+      "type": "bird",
+      "raca": "Calopsita",
+      "idade": 2,
+      "atendimento": [
+        {
+          "dia": "15/10/2024",
+          "hora": "10:00",
+          "servicos": [
+            "Consulta",
+            "Banho"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(19) 76543-2109",
+        "email": "pituca@email.com"
+      }
+    },
+    {
+      "id": "7",
+      "nome": "Nina",
+      "especie": "Gato",
+      "type": "cat",
+      "raca": "Sphynx",
+      "idade": 3,
+      "atendimento": [
+        {
+          "dia": "15/10/2024",
+          "hora": "08:00",
+          "servicos": [
+            "Banho"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(24) 54321-0987",
+        "email": "nina@email.com"
+      }
+    },
+    {
+      "id": "8",
+      "nome": "Mel",
+      "especie": "Cachorro",
+      "type": "dog",
+      "raca": "Shih Tzu",
+      "idade": 6,
+      "atendimento": [
+        {
+          "dia": "10/10/2024",
+          "hora": "07:00",
+          "servicos": [
+            "Banho",
+            "Tosa",
+            "Corte de Unhas"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(51) 87654-3210",
+        "email": "mel@email.com"
+      }
+    },
+    {
+      "id": "9",
+      "nome": "Esmeralda",
+      "especie": "Tartaruga",
+      "type": "reptile",
+      "raca": "Bartagame",
+      "idade": 3,
+      "atendimento": [
+        {
+          "dia": "17/10/2024",
+          "hora": "08:30",
+          "servicos": [
+            "Consulta veterinária",
+            "Higienização do terrário"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(11) 98765-4321",
+        "email": "leo@email.com"
+      }
+    },
+    {
+      "id": "10",
+      "nome": "Jade",
+      "especie": "Camaleão",
+      "type": "reptile",
+      "raca": "Yemen",
+      "idade": 2,
+      "atendimento": [
+        {
+          "dia": "21/10/2024",
+          "hora": "14:30",
+          "servicos": [
+            "Alimentação especializada",
+            "Iluminação UV"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(21) 12345-6789",
+        "email": "ana@email.com"
+      }
+    },
+    {
+      "id": "11",
+      "nome": "Azrael",
+      "especie": "Peixe",
+      "type": "fish",
+      "raca": "Betta",
+      "idade": 1,
+      "atendimento": [
+        {
+          "dia": "21/10/2024",
+          "hora": "10:00",
+          "servicos": [
+            "Troca de água",
+            "Limpeza do aquário"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(41) 87654-3210",
+        "email": "pedro@email.com"
+      }
+    },
+    {
+      "id": "12",
+      "nome": "Celeste",
+      "especie": "Peixe",
+      "type": "fish",
+      "raca": "Acará Disco",
+      "idade": 2,
+      "atendimento": [
+        {
+          "dia": "17/10/2024",
+          "hora": "11:00",
+          "servicos": [
+            "Alimentação viva",
+            "Aquário plantado"
+          ]
+        }
+      ],
+      "contato": {
+        "telefone": "(12) 34567-8901",
+        "email": "julia@email.com"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "item": "Ração Y para Gatos Adultos",
+      "quantidade": 30,
+      "valor": 80,
+      "valor-total-em-estoque": 2400,
+      "fornecedor": "GatoFeliz",
+      "validade": "28/02/2025",
+      "localização-no-estoque": "Prateleira-B2",
+      "data-da-última-compra": "10/10/2024",
+      "especie": "gato",
+      "tamanho": "Adulto",
+      "marca": "Marca-Y",
+      "imagem": "data:image/jpeg;base64,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",
+      "id": "b28d"
+    },
+    {
+      "item": "Brinquedo de Pelúcia para Cães Pequenos",
+      "quantidade": 50,
+      "valor": 15,
+      "valor-total-em-estoque": 750,
+      "fornecedor": "PetBrinquedos",
+      "validade": "Indeterminado",
+      "localização-no-estoque": "Gondola-Brinquedos",
+      "data-da-última-compra": "05/11/2024",
+      "especie": "cão",
+      "tamanho": "Pequeno",
+      "marca": "DogJoy",
+      "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-7rd4k-ltymh8d9va6e7a",
+      "id": "d985"
+    },
+    {
+      "item": "Coleira Inteligente com GPS",
+      "quantidade": 10,
+      "valor": 200,
+      "valor-total-em-estoque": 2000,
+      "fornecedor": "TechPet",
+      "validade": "Indeterminado",
+      "localização-no-estoque": "Gondola-Tecnologia",
+      "data-da-última-compra": "20/09/2024",
+      "especie": "cão",
+      "tamanho": "Universal",
+      "marca": "PetTrack",
+      "imagem": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQUYaIJ1E131DqNpRs25gZ2wDVbCmd6F0z0fCYnn3o-5ZAC0D3fcvaghRKaJfd-rzTFZpAWiPVJWIjlejCueboTEKYRZL2WUNhRRIcF-IiiXn76in712ys5ln5zMH6fe3oz8lqgtLI&usqp=CAc",
+      "id": "01e6"
+    },
+    {
+      "item": "Areia Sanitária para Gatos",
+      "quantidade": 100,
+      "valor": 25,
+      "valor-total-em-estoque": 2500,
+      "fornecedor": "GatoFeliz",
+      "validade": "Indeterminado",
+      "localização-no-estoque": "Prateleira-Gatos",
+      "data-da-última-compra": "15/10/2024",
+      "especie": "gato",
+      "tamanho": "Grande",
+      "marca": "GatoLimpo",
+      "imagem": "https://a-static.mlcdn.com.br/450x450/areia-higienica-granulada-sanitaria-gatos-perfumada-le-pets/oliststore/mgloikk65o2g16gq/98209329130200c21679148c08611f9d.jpeg",
+      "id": "f82b"
+    },
+    {
+      "item": "Shampoo Seco para Cães de Pelagem Longa",
+      "quantidade": 15,
+      "valor": 30,
+      "valor-total-em-estoque": 450,
+      "fornecedor": "PetShop Central",
+      "validade": "30/04/2025",
+      "localização-no-estoque": "Gondola-Higiene",
+      "data-da-última-compra": "15/10/2024",
+      "especie": "cão",
+      "tamanho": "Grande",
+      "marca": "PeloMacio",
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTi1iUIp3iKmv9umZ0zVYmL8hCWYVArbj9SL81Kt-omaL7N-GFF8TCWar2WVSlJ77lMZlfpwHU6QP8ApMCTX4-YCozE5F31_Ct-lZnSGG8SfAbpe1pwVLHpWsRkpAtyMC8lcgcRr7Gh5Cc&usqp=CAc",
+      "id": "0552"
+    },
+    {
+      "item": "Petiscos Naturais para Roedores",
+      "quantidade": 20,
+      "valor": 10,
+      "valor-total-em-estoque": 200,
+      "fornecedor": "RoedorFeliz",
+      "validade": "31/12/2024",
+      "localização-no-estoque": "Prateleira-Roedores",
+      "data-da-última-compra": "20/09/2024",
+      "especie": "roedor",
+      "tamanho": "Pequeno",
+      "marca": "RoedorSaudável",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUyICVwmYPVNLB5pOzUmGUo9rvei1IWdsSiQ&s",
+      "id": "b6d0"
+    },
+    {
+      "item": "Gaiola para Pássaros Pequenos",
+      "quantidade": 5,
+      "valor": 80,
+      "valor-total-em-estoque": 400,
+      "fornecedor": "PássaroFeliz",
+      "validade": "Indeterminado",
+      "localização-no-estoque": "Seção-Pássaros",
+      "data-da-última-compra": "08/11/2024",
+      "especie": "pássaro",
+      "tamanho": "Pequeno",
+      "marca": "CasaAvia",
+      "imagem": "https://global.cdn.magazord.com.br/purinorte/img/2023/07/produto/8312/323-5.jpg?ims=fit-in/600x600/filters:fill(white)",
+      "id": "53c6"
+    },
+    {
+      "item": "Aquário Pequeno com Acessórios",
+      "quantidade": 3,
+      "valor": 250,
+      "valor-total-em-estoque": 750,
+      "fornecedor": "PeixeFeliz",
+      "validade": "Indeterminado",
+      "localização-no-estoque": "Seção-Peixes",
+      "data-da-última-compra": "03/11/2024",
+      "especie": "peixe",
+      "tamanho": "Pequeno",
+      "marca": "AquaVida",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_810116-MLB53159108625_012023-O.webp",
+      "id": "2f02"
+    },
+    {
+      "item": "Ração para Cães de Raça Grande",
+      "quantidade": 20,
+      "valor": 100,
+      "valor-total-em-estoque": 2000,
+      "fornecedor": "CãoForte",
+      "validade": "15/03/2025",
+      "localização-no-estoque": "Prateleira-Cães",
+      "data-da-última-compra": "08/11/2024",
+      "especie": "cão",
+      "tamanho": "Grande",
+      "marca": "FortePet",
+      "imagem": "https://agropecuariaimarui.com.br/wp-content/uploads/2019/06/125.jpg",
+      "id": "3efb"
+    }
+  ]
+}

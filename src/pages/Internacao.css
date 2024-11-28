@@ -1,0 +1,46 @@
+.internation {
+    width: 100%;
+    padding: 0.5rem 5%;
+    background-color: var(--background-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.internation h2 {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 5%;
+    margin-bottom: 1.5rem ;
+    border-bottom: var(--border);
+}
+
+.inner-internation {
+  display: flex; 
+  flex-direction: column; 
+}
+
+.internation-box {
+    width: 100%;
+    border: 2px dotted var(--primary-color);
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+.internation-paciente {
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border-radius: 0.5rem;
+    border: 3px solid var(--background-color);
+}
+
+@media screen and (max-width: 900px) {
+    .internation {
+        margin-top: 3rem;
+    }
+}
